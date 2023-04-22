@@ -15,10 +15,10 @@ int main(void)
 {
 	char Uplow;
 
-	for (Uplow = 'a'; Uplow <= 'z';)
+	for (Uplow = 'a'; Uplow <= 'z'; Uplow++)
 	putchar(Uplow);
 
-	for (Uplow = 'A'; Uplow <= 'Z';)
+	for (Uplow = 'A'; Uplow <= 'Z'; Uplow++)
 	putchar(Uplow);
 	putchar('\n');
 
